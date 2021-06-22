@@ -7,5 +7,3 @@ export const todoList = new TodoList();
 
 //todoList.todos.forEach( todo => crearTodoHtml( todo )); //si es un solo argumento se resume
 todoList.todos.forEach(crearTodoHtml);
-
-console.log(todoList.todos);
